@@ -5,7 +5,7 @@ Summary:	Digest::SHA256 Perl module - SHA-256/384/512 hash algorithm implementat
 Summary(pl):	Modu³ Perla Digest::SHA256 - implementacja algorytmu mieszaj±cego SHA-256/384/512
 Name:		perl-Digest-SHA256
 Version:	0.01b
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
