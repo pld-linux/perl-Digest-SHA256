@@ -25,7 +25,7 @@ SHA 256/384/512.
 %setup -q -n %{pnam}-0.01
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make} OPTIMIZE="%{rpmcflags}"
 
 %install
