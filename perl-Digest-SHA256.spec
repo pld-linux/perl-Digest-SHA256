@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Digest
 %define		pnam	SHA256
-Summary:	Digest::SHA256 Perl module - SHA-256/384/512 hash algorithm implementation
-Summary(pl):	Modu³ Perla Digest::SHA256 - implementacja algorytmu mieszaj±cego SHA-256/384/512
+Summary:	Digest::SHA256 - SHA-256/384/512 hash algorithm implementation
+Summary(pl):	Digest::SHA256 - implementacja algorytmu mieszaj±cego SHA-256/384/512
 Name:		perl-Digest-SHA256
 Version:	0.01b
 Release:	2
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	08f2b87bad328275bdebf64c18bfcb31
