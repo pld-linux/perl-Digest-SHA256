@@ -2,7 +2,7 @@
 %define		pdir	Digest
 %define		pnam	SHA256
 Summary:	Digest::SHA256 - SHA-256/384/512 hash algorithm implementation
-Summary(pl.UTF-8):   Digest::SHA256 - implementacja algorytmu mieszającego SHA-256/384/512
+Summary(pl.UTF-8):	Digest::SHA256 - implementacja algorytmu mieszającego SHA-256/384/512
 Name:		perl-Digest-SHA256
 Version:	0.01b
 Release:	3
