@@ -2,15 +2,16 @@
 %define		pdir	Digest
 %define		pnam	SHA256
 Summary:	Digest::SHA256 - SHA-256/384/512 hash algorithm implementation
-Summary(pl.UTF-8):	Digest::SHA256 - implementacja algorytmu mieszającego SHA-256/384/512
+Summary(pl.UTF-8):	Digest::SHA256 - implementacja algorytmu skrótu SHA-256/384/512
 Name:		perl-Digest-SHA256
 Version:	0.01b
 Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Digest/%{pnam}-%{version}.tar.gz
 # Source0-md5:	08f2b87bad328275bdebf64c18bfcb31
+URL:		http://search.cpan.org/dist/Digest-SHA256/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -20,8 +21,8 @@ Digest::SHA256 module allows you to use the NIST SHA 256/384/512 hash
 algorithm.
 
 %description -l pl.UTF-8
-Moduł Digest::SHA256 pozwala na używanie algorytmu mieszającego NIST
-SHA 256/384/512.
+Moduł Digest::SHA256 pozwala na używanie algorytmu skrótu NIST SHA
+256/384/512.
 
 %prep
 %setup -q -n %{pnam}-0.01
