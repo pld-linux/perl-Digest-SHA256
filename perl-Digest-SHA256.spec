@@ -49,6 +49,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Digest/SHA256.pm
 %dir %{perl_vendorarch}/auto/Digest/SHA256
 %{perl_vendorarch}/auto/Digest/SHA256/autosplit.ix
-%{perl_vendorarch}/auto/Digest/SHA256/SHA256.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Digest/SHA256/SHA256.so
 %{_mandir}/man3/Digest::SHA256.3pm*
