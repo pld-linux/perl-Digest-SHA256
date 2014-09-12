@@ -5,7 +5,7 @@ Summary:	Digest::SHA256 - SHA-256/384/512 hash algorithm implementation
 Summary(pl.UTF-8):	Digest::SHA256 - implementacja algorytmu skrótu SHA-256/384/512
 Name:		perl-Digest-SHA256
 Version:	0.01b
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
