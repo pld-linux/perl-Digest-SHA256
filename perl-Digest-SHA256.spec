@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Digest
 %define		pnam	SHA256
 Summary:	Digest::SHA256 - SHA-256/384/512 hash algorithm implementation
